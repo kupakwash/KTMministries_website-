@@ -1,87 +1,114 @@
-# Apostle KTM Ministries
+<div align="center">
 
-Premium ministry and book-launch website for Apostle Kupakwashe T. Mapuranga.
+# ✨ APOSTLE KTM MINISTRIES
 
-The site introduces the ministry, showcases the upcoming **GPS: Where Are You?** book, features sermons and media, and makes it easy for visitors to request a copy or invite Apostle KTM.
+### *Helping People Discover God’s Purpose, Position and Calling.*
 
-## Features
+![GPS: Where Are You? book cover](public/media/gps-cover.png)
 
-- Responsive, premium navy, gold and cream ministry design
-- Full-screen ministry landing page
-- GPS book section with front and back cover artwork
-- GPS launch announcement and first-visit “Coming Soon” panel
-- Book order and launch-update email actions
-- Sermon/video feature area
-- Ministry biography, media cards and journal section
-- Invitation section linked to `kupakwashemapuranga@gmail.com`
+**📖 Author &nbsp;·&nbsp; 🎙️ Speaker &nbsp;·&nbsp; ✝️ Bible Teacher &nbsp;·&nbsp; 💡 AI Engineer &nbsp;·&nbsp; 👑 Kingdom Leader**
 
-## Run locally
+</div>
 
-Install dependencies once:
+---
+
+## 🌍 Welcome
+
+The official ministry and book-launch website for **Apostle Kupakwashe T. Mapuranga**. It is designed to inspire spiritual growth, share teachings, feature sermons, and introduce the upcoming book **GPS: Where Are You?**
+
+> *“Purpose begins with God.”* — **GPS**
+
+## 🚀 What visitors can do
+
+| Experience | What it offers |
+| --- | --- |
+| 📘 **Discover GPS** | Explore the book, artwork, launch announcement and order pathway. |
+| 🎬 **Watch teachings** | View featured sermons and ministry media. |
+| 🙌 **Meet Apostle KTM** | Learn about the ministry calling, leadership and vision. |
+| ✉️ **Request a copy** | Send a book request or receive launch updates. |
+| 📅 **Make an invitation** | Invite Apostle KTM for conferences, ministry events and speaking engagements. |
+
+## 🖼️ Ministry media
+
+The live website uses carefully selected book artwork, ministry photographs and sermon video from:
+
+```text
+public/media/
+```
+
+| Asset | Use on the website |
+| --- | --- |
+| `gps-cover.png` | Main GPS book feature and welcome panel |
+| `gps-back-cover.png` | Book detail presentation |
+| `gps-launch.png` | Book campaign and launch section |
+| `apostle-*.jpg` | Hero, About, media, journal and invitation sections |
+| `watch-now.mp4` | Featured “Watch Now” sermon video |
+
+> 💡 Keep original raw photos and large videos in `pictures and videos/`. That folder is excluded from Git so the repository remains clean and lightweight.
+
+## 💌 GPS book orders
+
+The current launch flow guides visitors to request their copy by email:
+
+📧 **[kupakwashemapuranga@gmail.com](mailto:kupakwashemapuranga@gmail.com?subject=GPS%20Book%20Order%20Request)**
+
+The next version will include a guided order form for:
+
+- 👤 Customer details
+- 🌍 Country and delivery address
+- 📦 Quantity and delivery preference
+- 💳 Payment preference
+- ✍️ Signed-copy requests
+
+## 🛠️ Run the website locally
+
+### 1. Install dependencies
 
 ```powershell
 npm.cmd install
 ```
 
-Start the local site:
+### 2. Start the website
 
 ```powershell
 npm.cmd run dev
 ```
 
-Then open [http://localhost:3000](http://localhost:3000).
+Open 👉 [http://localhost:3000](http://localhost:3000)
 
-Create a production build:
+### 3. Create a production build
 
 ```powershell
 npm.cmd run build
 ```
 
-## Project structure
+## 🗂️ Project map
 
 ```text
 app/
-  page.tsx          Main website page and launch notification
-  globals.css       Website styling and responsive layout
-  layout.tsx        Global metadata and fonts
-public/media/       Images, book artwork and selected website videos
+  page.tsx          🏠 Website, GPS launch panel and content
+  globals.css       🎨 Premium responsive styling
+  layout.tsx        🔎 Metadata, fonts and global setup
+public/media/       🖼️ Website-ready photos, book artwork and video
 ```
 
-## Updating content
+## ✅ Before public launch
 
-The active content and page wording live in `app/page.tsx`.
+- [ ] Add official Instagram, Facebook, YouTube and LinkedIn links
+- [ ] Add GPS price and fulfilment details
+- [ ] Connect the order and invitation forms
+- [ ] Connect a newsletter service
+- [ ] Add privacy policy and terms pages
+- [ ] Deploy to Vercel, Netlify or another Next.js host
 
-Website media is in `public/media/`. Use meaningful filenames when adding new assets, then update the relevant image or video path in `app/page.tsx`.
+## ⚙️ Built with
 
-The original supplied images and videos are kept in the local `pictures and videos` folder. That folder is intentionally excluded from Git so the repository contains only the media currently used by the website.
+**Next.js** · **TypeScript** · **Tailwind CSS** · **Framer Motion**
 
-## GPS book orders
+<div align="center">
 
-The current buttons open an email request to:
+### 🙏 Thank you for being part of the journey.
 
-`kupakwashemapuranga@gmail.com`
+© 2026 Apostle KTM Ministries
 
-Before public launch, replace this email flow with a proper order form that captures:
-
-- Customer name and email
-- Country and delivery address
-- Quantity
-- Local or international fulfilment option
-- Payment preference
-
-## Before publishing publicly
-
-- Add live Instagram, Facebook, YouTube and LinkedIn links
-- Add the real book price and fulfilment process
-- Add a privacy policy and terms page
-- Connect a newsletter provider
-- Connect a contact/order form service
-- Deploy to Vercel, Netlify, or another Next.js host
-
-## Technology
-
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-
+</div>
